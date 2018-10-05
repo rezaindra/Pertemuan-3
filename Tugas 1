@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int bb,tb,tbideal;
+    cout<<"Hitung Ideal Tubuh\n";
+    cout<<"\n";
+    tbideal = bb / (tb*tb);
+    cout<<"Berat Badan : ";
+    cin>>bb;
+    cout<<"Tinggi Badan : ";
+    cin>>tb;
+    if (bb>=50 && tb>=160)
+    {
+        cout<<"Tubuh kamu ideal!";
+    }
+    else
+    {
+        cout<<"Tubuh kamu tidak ideal!";
+    }
+    return 0;
+}
